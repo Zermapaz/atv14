@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATV 14 </title>
+    <link rel="stylesheet" href="C:\Users\guilherme_zermiani1\Desktop\Atividade 14\style.css">
+    <title></title>
+
+</head>
+<body>
+    <div id="atividade1"> 
+        <p><b>1- Escreva duas variáveis</b></p>
+            <p>Primeira:</p>
+                <input type="text" id="x">
+            <p>Segunda:</p>
+                <input type="text" id="y">
+
+        <p><b>A-</b> Diferença entre as duas variáveis</p>
+        <p id="resultado1a"></p>
+        <button  onclick="javascript:diferençaEntreVariaveis()"> Solução</button>
+
+        <p><b>B-</b> Esse é o dobro da primeira mais o triplo da segunda variável</p>
+        <p id="resultado1b"></p>
+        <button onclick="javascript:dobroXmaisTriploY()">Solução</button>
+
+        <p><b>C-</b> Essa é a multiplicação das duas</p>
+        <p id="resultado1c"></p>
+        <button onclick="multEDivXY()">Solução</button>
+
+
+        <p><b>D-</b> Essa é a ordem das duas do maior para o menor</p>
+        <p id="resultado1d"></p>
+        <button onclick="colocaEmOrdem()">Solução</button>
+        <hr>
+    </div>
+
+    <div id="atividade2"> 
+        <p><b>2- Vamos calcular seu INSS</b></p>
+        <p>Informe seu nome:</p>
+        <input type="text"class="nome">
+        <p>Informe seu salário bruto:</p>
+        <input type="text" id="salarioBruto">
+
+        <p class="nome"></p>
+        <button  onclick="calculoINSS()">Calcular</button>
+        <p>Nome:</p>
+            <p class="nome"></p>
+        <p>Salário bruto: </p>
+            <p class="salarioBruto"></p>
+        <p>Valor do INSS:</p>
+            <p id="valorINSS"></p>
+        <p>Salário Líquido:</p>
+            <p id="salarioLiq"></p>
+        <hr>
+    </div>
+
+    <div id="atividade3">
+        <p><b>3- Vamos calcular seu desconto do INSS baseado no quanto você ganha!</b></p>
+        <button onclick="descontoINSSporSalario()">Calcular</button>
+        <p>Nome:</p>
+        <p class="nome"></p>
+        <p>Salário bruto:</p>
+        <p class="salarioBruto"></p>
+        <p>Salário descontado:</p>
+        <p id="salarioDescontado"></p>
+        <p>Valor descontado:</p>
+        <p></p>
+
+        <script src="C:\Users\guilherme_zermiani1\Desktop\atividade 14\script.js"></script>
+
+    </div>
+</body>
+</html>
